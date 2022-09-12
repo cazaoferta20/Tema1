@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BANNER_PAGINA_WEB_-_MOVIL.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "1662990884a9a982f5": {
+      "type": "collection-list",
+      "blocks": {
+        "1662990884a3ed8c4b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "belleza-y-salud"
+          }
+        },
+        "1662990884a3ed8c4b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coleccion-3"
+          }
+        },
+        "1662990884a3ed8c4b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coleccion-1"
+          }
+        },
+        "24ace199-18ba-436a-900c-b94aad527c9d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jugueteria"
+          }
+        }
+      },
+      "block_order": [
+        "1662990884a3ed8c4b-0",
+        "1662990884a3ed8c4b-1",
+        "1662990884a3ed8c4b-2",
+        "24ace199-18ba-436a-900c-b94aad527c9d"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text",
+    "featured_collection",
+    "1662990884a9a982f5"
+  ]
+}
